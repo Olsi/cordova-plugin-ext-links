@@ -1,6 +1,6 @@
 {
     "name": "cordova-plugin-ext-links",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "A Cordova plugin that opens all links with utm_ in the URL through the system browser, so that they do not take over the web view of the app (iOS & Android only)",
     "cordova": {
         "id": "cordova-plugin-ext-links",
@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Olsi/cordova-plugin-ext-links"
+        "url": "git+https://github.com/Olsi/cordova-plugin-ext-links.git"
     },
     "keywords": [
         "cordova",
@@ -25,5 +25,10 @@
         "links",
         "system-browser"
     ],
-    "author": "Olsi Celaj"
+    "author": "Olsi Celaj",
+    "bugs": {
+        "url": "https://github.com/Olsi/cordova-plugin-ext-links/issues"
+    },
+    "homepage": "https://github.com/Olsi/cordova-plugin-ext-links#readme",
+    "license": "Apache 2.0"
 }
