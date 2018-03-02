@@ -53,8 +53,8 @@ import org.json.JSONException;
 public class OpenBlank extends CordovaPlugin {
     @Override
     public boolean onOverrideUrlLoading(String url) {
-    	Log.d("OpenBlank", "onOverrideUrlLoading called with URL " + url);
-   		if(url.indexOf("utm_content") > -1 || url.indexOf("adurl") > -1) {
+    	// Log.d("OpenBlank", "onOverrideUrlLoading called with URL " + url);
+   		if(url.indexOf("utm_") > -1 || url.indexOf("adurl") > -1) {
 
 	        try {
 	            Intent intent = null;
@@ -71,7 +71,7 @@ public class OpenBlank extends CordovaPlugin {
 	            this.cordova.getActivity().startActivity(intent);
 	            return true;
 	        } catch (android.content.ActivityNotFoundException e) {
-	            Log.d("OpenBlank", "OpenBlank: Error loading url "+url+":"+ e.toString());
+	            // Log.d("OpenBlank", "OpenBlank: Error loading url "+url+":"+ e.toString());
 	            return false;
 	        }
    		}

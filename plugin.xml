@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="cordova-plugin-open-blank" version="0.0.2">
-    <name>Open Blank</name>
-    <description>Cordova Open Blank Plugin</description>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-ext-links" version="0.5">
+    <name>Cordova, Launch External Links in System Browser</name>
+    <description>Cordova External Links Plugin</description>
     <license>Apache 2.0</license>
-    <repo>https://github.com/slaptoast/cordova-plugin-openblank.git</repo>
+    <repo>https://github.com/Olsi/cordova-plugin-ext-links.git</repo>
     <keywords>cordova,webview,iframe,blank</keywords>
     <platform name="ios">
       <header-file src="src/ios/CDVIntentAndNavigationFilter+OpenBlank.h" />
