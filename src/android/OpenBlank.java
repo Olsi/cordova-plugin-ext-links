@@ -1,6 +1,6 @@
 
 
-package org.apache.cordova.openblank;
+package com.olsicelaj.cordova.extlinks;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.Config;
